@@ -1,0 +1,97 @@
+<!DOCTYPE>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">    
+            <link rel = "icon" href = "CSS/favicon.png">
+            <script src="https://use.fontawesome.com/1f37ecbb60.js"></script>
+             <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+            <title>Meditech</title>
+            <link rel = "stylesheet" href = "CSS/meditechCSS.css">
+        </head>
+        <body>
+
+
+            <nav class = "navbar navbar-inverse navbar-static-top">
+                <div class ="container">
+                    <div class = "navbar-header">
+                        <button type = "collapse" class = "navbar-toggle collapsed" data-toggle = "collapse" data-target = "#navbar" aria-expanded = "false" aria-controls = "navbar">
+                            <span class = "sr-only">Toggle Navigation</span>
+                            <span class = "icon-bar"></span>
+                            <span class = "icon-bar"></span>
+                            <span class = "icon-bar"></span>
+                        </button>
+                        <a class = "navbar-brand" href = "index.html">MediTech</a>
+                    </div>
+                    <div id = "navbar" class = "collapse navbar-collapse">
+                        <ul class = "nav navbar-nav">
+                            <li class><a href = "index.html">Home</a></li>
+                            <li class = "active"><a href = "mediTechBuy.html">Where to Buy</a></li>
+
+                            <li class ="dropdown">
+                                <a class = "dropdown-toggle" href ="infasomAbout.html" data-toggle = "dropdown" role = "button" aria-expanded = "true">Our Products</a>
+                                    <ul class = "dropdown-menu">
+                                        <li><a href = "biosyncBand.html">BioSync Band</a></li>
+                                    </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+
+            <div class = "container">
+                <h2 class = "page-header">Contact Form</h2>
+                <p class = "lead">Once you finish filling out this contact form, our outreach directors will work with your company to get you as many MeditTech products as you may need!</p>
+                <p class = "text-muted">Please fill out the form completely and don't forget to specify the product(s) you're interested in.</p>
+                <form>
+                    <div class = "form-group">
+                        <label for = "text">Contact Name: </label>
+                        <input type = "text" class = "form-control" id = "contactName" placeholder = "Enter Contact Name">
+                    </div>
+
+                    <div class = "form-group">
+                        <label for = "text">Company Name:</label>
+                        <input type = "text" class = "form-control" id = "companyName" placeholder = "Enter Company Name">
+                    </div>
+                    <div class = "form-group">
+                        <label for = "email">Contact Email:</label>
+                        <input type = "email" class = "form-control" id = "contactEmail" placeholder = "Enter Contact Email">
+                    </div>
+                    <div class = "form-group">
+                        <label for = "numbers">Contact Phone Number:</label>
+                        <input type = "tel" class = "form-control" id = "contactNumber" placeholder= "Enter Contact Phone Number">
+                    </div>
+                    <div class = "form-group">
+                        <label for = "text">Company Address:</label>
+                        <input type = "text" class = "form-control" id = "companyAddress" placeholder = "Enter Company Address">
+                    </div>
+                    <div class = "form-group">
+                        <p><strong>What Products Are You Interested In?</strong></p>
+                        <label><input type = "checkbox"> BioSync Band </label>
+                        <label><input type = "checkbox"> A Fake Product </label>
+                        <label><input type = "checkbox"> Another Fake Product </label>
+                        <label><input type = "checkbox"> The Last Fake Product </label>
+                    </div> 
+                        
+                    <a href = "ecommerceLanding.html" class = "btn btn-default" role = "button">Submit</a>
+                </form>
+            </div>
+        </body>
+
+        <footer class = "footer">
+                <div class = "container">
+                    <p class = "text-muted">Website Created and Curated By <mark>TCB Softworks</mark>.</p>
+                </div>
+            </footer>
+    </html>

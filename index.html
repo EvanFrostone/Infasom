@@ -1,41 +1,115 @@
 <!DOCTYPE>
     <html>
         <head>
-            <title>Infasom</title>
-            <link rel = "stylesheet" type ="text/css" href="CSS/Infasom.css">
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">    
+            <link rel = "icon" href = "CSS/favicon.png">
             <script src="https://use.fontawesome.com/1f37ecbb60.js"></script>
-            <script src = "JS/jquery.js"></script>
-            <script src = "JS/InfasomJs.js"></script>
+             <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+            <title>Meditech</title>
+
+            <link rel = "stylesheet" href = "CSS/meditechCSS.css">
         </head>
-        <div class = "container">
-            
-            <body>
-                <div id = "infasomBadge">
-                    <h1>Infasom</h1>
+
+        <body>
+            <nav class = "navbar navbar-inverse navbar-fixed-top">
+                <div class ="container">
+                    <div class = "navbar-header">
+                        <button type = "collapse" class = "navbar-toggle collapsed" data-toggle = "collapse" data-target = "#navbar" aria-expanded = "false" aria-controls = "navbar">
+                            <span class = "sr-only">Toggle Navigation</span>
+                            <span class = "icon-bar"></span>
+                            <span class = "icon-bar"></span>
+                            <span class = "icon-bar"></span>
+                        </button>
+                        <a class = "navbar-brand" href = "index.html">MediTech</a>
                     </div>
-                <div id = "Menu">
-                    <ul>
-                        <li class = "navBar"><a href = "index.html">Home</a></li>
-                        <li class = "navBar"><a href = "infasomAbout.html">About Infasom</a></li>
-                        <li class = "navBar"><a href = "infasomBuy.html">Where to Buy</a></li>
-                </div>
+                    <div id = "navbar" class = "collapse navbar-collapse">
+                        <ul class = "nav navbar-nav">
+                            <li class = "active"><a href = "index.html">Home</a></li>
+                            <li><a href = "mediTechBuy.html">Where to Buy</a></li>
 
-                <div id = "homeImages">
-                    <img class = "sleepyWoman" src = "CSS/woman-sleeping-with-baby.jpg" alt = "Woman sleeping with baby" height = "35%" width = "auto">
+                            <li class ="dropdown">
+                                <a class = "dropdown-toggle" href ="infasomAbout.html" data-toggle = "dropdown" role = "button" aria-expanded = "true">Our Products</a>
+                                    <ul class = "dropdown-menu">
+                                        <li><a href = "biosyncBand.html">BioSync Band</a></li>
+                                    </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+            </nav>
+    
+            <div class = "container">
+                <div class = "well well-lg">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
 
-                <div class = "pictureDescription">
-                    <h2 id = "heading1">Lorem ipsum dolor?</h2>
-                    <p id = "paragraph1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a dui felis. Quisque id lectus at dui posuere ultrices. Aenean risus purus, dictum quis mollis nec, bibendum eu velit. Morbi porta tristique dictum. Donec augue leo, commodo sit amet leo et, tempor luctus augue. Nulla consectetur erat et quam viverra, ut congue magna venenatis. Aliquam efficitur ornare elit, ac faucibus ligula auctor at. Aenean pharetra, dolor eget efficitur mollis, felis ligula sodales lorem, vitae egestas ligula neque aliquam ligula. Aliquam erat volutpat. Vivamus vel suscipit enim. Maecenas laoreet, turpis nec facilisis lobortis, lorem erat varius risus, sagittis sagittis quam dui ac mauris. </p>
-                    <p id = "paragraph2">Etiam in erat sodales, consequat quam ut, vehicula turpis. Donec scelerisque ornare urna, ut dictum neque. Aliquam blandit lacus orci, id aliquet libero suscipit ut. Mauris faucibus vehicula fermentum. Fusce pharetra magna non venenatis vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst. Phasellus tincidunt quam nec convallis mollis. Donec auctor iaculis ipsum sit amet cursus. Nunc eu mattis ex, et fringilla erat. Vestibulum tempor dictum purus, a commodo orci aliquet ac. Morbi vel tincidunt magna.</p>
-                </div>
 
-                <div class = "secondPictureDescription">
-                    <img src = "CSS/babyinCrib.jpg" alt = "Baby in a crib" height = "25%" width = "auto">
-                    <h2 id = "heading2">Lorem ipsum dolor</h2>
-                    <p id = "2ndparagraph1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a dui felis. Quisque id lectus at dui posuere ultrices. Aenean risus purus, dictum quis mollis nec, bibendum eu velit. Morbi porta tristique dictum. Donec augue leo, commodo sit amet leo et, tempor luctus augue. Nulla consectetur erat et quam viverra, ut congue magna venenatis. Aliquam efficitur ornare elit, ac faucibus ligula auctor at. Aenean pharetra, dolor eget efficitur mollis, felis ligula sodales lorem, vitae egestas ligula neque aliquam ligula. Aliquam erat volutpat. Vivamus vel suscipit enim. Maecenas laoreet, turpis nec facilisis lobortis, lorem erat varius risus, sagittis sagittis quam dui ac mauris.</p>
-                    <p id ="2ndparagraph2">Etiam in erat sodales, consequat quam ut, vehicula turpis. Donec scelerisque ornare urna, ut dictum neque. Aliquam blandit lacus orci, id aliquet libero suscipit ut. Mauris faucibus vehicula fermentum. Fusce pharetra magna non venenatis vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst. Phasellus tincidunt quam nec convallis mollis. Donec auctor iaculis ipsum sit amet cursus. Nunc eu mattis ex, et fringilla erat. Vestibulum tempor dictum purus, a commodo orci aliquet ac. Morbi vel tincidunt magna.</p>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                        <img src="CSS/cellStuff.jpg" alt="phillips monitoring">
+                        <div class = "carousel-caption">
+                            <h2>Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec ligula et neque efficitur viverra.</p>
+                        </div>
+                        </div>
+
+                        <div class="item">
+                        <img src="CSS/Medical-Banner.jpg" alt="Surgeons in Operating Room">
+                        <div class = "carousel-caption">
+                            <h2>Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec ligula et neque efficitur viverra.</p>
+                        </div>
+                        </div>
+
+                        <div class="item">
+                        <img src="CSS/baby-sleeping-stock.jpg" alt="Stock Photo of Sleeping Baby">
+                        <div class = "carousel-caption">
+                            <h2>Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec ligula et neque efficitur viverra.</p>
+                        </div>
+                        </div>
+
+                        <div class="item">
+                        <img src="CSS/hospital-baby.jpg" alt="Babies Sleeping in Hospital">
+                        <div class = "carousel-caption">
+                            <h2>Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec ligula et neque efficitur viverra.</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+
+                    </div>
+            </div>
+            </div>
+
+
+            <div class = "container">
+                <h2 class = "page-header">MediTech</h2>
+                <p class = "lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec ligula et neque efficitur viverra.</p>
+                <p id = "bottomText">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget eros ex. Nam euismod lorem vel nibh tincidunt, eget tempor quam consequat. Donec ut consectetur nunc. Quisque volutpat sem ligula, at convallis lorem lobortis at. Nunc imperdiet hendrerit est vitae malesuada. Nam facilisis sapien vitae cursus dictum. In posuere suscipit congue. Nulla eget maximus felis. Suspendisse semper, neque ut consectetur commodo, dui nulla egestas tortor, et lobortis ex magna vel elit. Curabitur ultricies est nec ipsum luctus, eget pulvinar orci condimentum.
+
+Nam venenatis urna a quam laoreet, venenatis iaculis sapien scelerisque. Donec porttitor ullamcorper placerat. Aliquam iaculis pulvinar justo. Ut volutpat velit a mauris malesuada, suscipit vestibulum ligula mollis. In fermentum orci eget justo volutpat, sed blandit enim vehicula. Nam quis dui molestie, fermentum arcu at, viverra est. Morbi non auctor tortor. Maecenas hendrerit arcu quis vestibulum tincidunt. Maecenas at iaculis eros. Etiam sodales nibh ac maximus cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </div>
+        </body>
+
+            <footer class = "footer">
+                <div class = "container">
+                    <p class = "text-muted">Website Created and Curated By <mark>TCB Softworks</mark>.</p>
                 </div>
-            </body>
-                
-        </div>
+            </footer> 
+    </html>
